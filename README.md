@@ -10,6 +10,3 @@ The second algorithm is called "RSIandMACD" and utlizes both the Relative Streng
 Through backtesting, it is estimated that using these algorithms returns, on average, 33% per year using data from the past 14 years. This is over triple the average yearly return of the S&P 500 in that same time.
 
 Finally, machine learning (ML) algorithms are currently be tested along-side these rule-based algorithms, to test whether ML may yield greater accuracy and fine tuning. Currently, the algorithms seek to classify the current market conditions as a "buy", "sell", or "hold" signal based on technical indicators, but economic factors and news will also eventually be implemented. Classification is currently being tested using logistic regression and K-nearest-neighbors algorithms. Logistic regression uses a logistic model to find the probability that a given data point belongs to a certain classification based on its features. In K-nearest-neighbors the program "remembers" the features of each training data point and its associated class and then assigns testing data points to classes based on the training data point with most similar features.
-
-References:
-1.) Adam S. Hayes (2019) Bitcoin price and its marginal cost of production: support for a fundamental value, Applied Economics Letters, 26:7, 554-560, DOI: 10.1080/13504851.2018.1488040 
